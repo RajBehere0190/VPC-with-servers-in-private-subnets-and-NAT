@@ -11,3 +11,8 @@ The following diagram provides an overview of the resources included in this exa
 **Routing**
 
 When you create this VPC by using the Amazon VPC console, we create a route table for the public subnets with local routes and routes to the internet gateway. We also create a route table for the private subnets with local routes, and routes to the NAT gateway, egress-only internet gateway, and gateway VPC endpoint.
+
+**Security**
+ We might create for the security group that you associate with your servers. The security group must allow traffic from the load balancer over the listener port and protocol. It must also allow health check traffic.
+
+
