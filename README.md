@@ -16,3 +16,4 @@ When you create this VPC by using the Amazon VPC console, we create a route tabl
  We might create for the security group that you associate with your servers. The security group must allow traffic from the load balancer over the listener port and protocol. It must also allow health check traffic.
 
 
+![image](https://github.com/RajBehere0190/VPC-with-servers-in-private-subnets-and-NAT/assets/117808263/325db66c-3f2c-4f7f-b045-7bf4dc288cc5)
