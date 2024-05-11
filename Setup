@@ -1,0 +1,14 @@
+Create the VPC
+
+Use the following procedure to create a VPC with a public subnet and a private subnet in two Availability Zones, and a NAT gateway in each Availability Zone.
+To create the VPC
+
+1.Open the Amazon VPC console at  https://console.aws.amazon.com/vpc/.
+
+2.On the dashboard, choose Create VPC.
+
+3.For Resources to create, choose VPC and more.
+
+Configure the VPC
+
+For Name tag auto-generation, enter a name for the VPC.
