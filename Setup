@@ -9,8 +9,14 @@ To create the VPC
 
 3.For Resources to create, choose VPC and more.
 
-Configure the VPC
+4.Configure the VPC
 
 a.For Name tag auto-generation, enter a name for the VPC.
 b.For IPv4 CIDR block, you can keep the default suggestion, or alternatively you can enter the CIDR block required by your application or network.
 c.If your application communicates by using IPv6 addresses, choose IPv6 CIDR block, Amazon-provided IPv6 CIDR block.
+
+5.Configure the subnets
+
+a.For Number of Availability Zones, choose 2, so that you can launch instances in multiple Availability Zones to improve resiliency.
+b.For Number of public subnets, choose 2.
+c.For Number of private subnets, choose 2.
