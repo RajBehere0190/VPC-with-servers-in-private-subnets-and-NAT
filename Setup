@@ -24,3 +24,4 @@ d.You can keep the default CIDR block for the public subnet, or alternatively yo
 
 6.For NAT gateways, choose 1 per AZ to improve resiliency.
 7.If your application communicates by using IPv6 addresses, for Egress only internet gateway, choose Yes.
+8.For VPC endpoints, if your instances must access an S3 bucket, keep the S3 Gateway default. Otherwise, instances in your private subnet can't access Amazon S3. There is no cost for this option, so you can keep the default if you might use an S3 bucket in the future. If you choose None, you can always add a gateway VPC endpoint later on.
