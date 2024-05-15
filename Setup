@@ -21,3 +21,6 @@ a.For Number of Availability Zones, choose 2, so that you can launch instances i
 b.For Number of public subnets, choose 2.
 c.For Number of private subnets, choose 2.
 d.You can keep the default CIDR block for the public subnet, or alternatively you can expand Customize subnet CIDR blocks and enter a CIDR block. For more information, see Subnet CIDR blocks.
+
+6.For NAT gateways, choose 1 per AZ to improve resiliency.
+7.If your application communicates by using IPv6 addresses, for Egress only internet gateway, choose Yes.
