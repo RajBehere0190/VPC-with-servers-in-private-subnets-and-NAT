@@ -1,0 +1,3 @@
+Deploy the application
+Ideally, we've finished testing your servers in a development or test environment, and created the scripts or images that you'll use to deploy your application in production.
+We can use Amazon EC2 Auto Scaling to deploy servers in multiple Availability Zones and maintain the minimum server capacity required by your application.
