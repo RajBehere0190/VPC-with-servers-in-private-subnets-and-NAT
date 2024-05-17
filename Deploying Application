@@ -4,3 +4,7 @@ Ideally, we've finished testing your servers in a development or test environmen
 We can use Amazon EC2 Auto Scaling to deploy servers in multiple Availability Zones and maintain the minimum server capacity required by your application.
 
 To launch instances by using an Auto Scaling group
+
+Create a launch template to specify the configuration information needed to launch your EC2 instances by using Amazon EC2 Auto Scaling. For step-by-step directions, see Create a launch template for your Auto Scaling group in the Amazon EC2 Auto Scaling User Guide.
+
+Create an Auto Scaling group, which is a collection of EC2 instances with a minimum, maximum, and desired size. For step-by-step directions, see Create an Auto Scaling group using a launch template in the Amazon EC2 Auto Scaling User Guide.
