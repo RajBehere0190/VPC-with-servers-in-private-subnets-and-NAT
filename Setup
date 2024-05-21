@@ -12,18 +12,23 @@ To create the VPC
 4.Configure the VPC
 
 a.For Name tag auto-generation, enter a name for the VPC.
-b.For IPv4 CIDR block, you can keep the default suggestion, or alternatively you can enter the CIDR block required by your application or network.
-c.If your application communicates by using IPv6 addresses, choose IPv6 CIDR block, Amazon-provided IPv6 CIDR block.
+b.For IPv4 CIDR block, we can keep the default suggestion, or alternatively we can enter the CIDR block required by your application or network.
+c.If our application communicates by using IPv6 addresses, choose IPv6 CIDR block, Amazon-provided IPv6 CIDR block.
 
 5.Configure the subnets
 
 a.For Number of Availability Zones, choose 2, so that you can launch instances in multiple Availability Zones to improve resiliency.
 b.For Number of public subnets, choose 2.
 c.For Number of private subnets, choose 2.
-d.You can keep the default CIDR block for the public subnet, or alternatively you can expand Customize subnet CIDR blocks and enter a CIDR block. For more information, see Subnet CIDR blocks.
+d.we can keep the default CIDR block for the public subnet, or alternatively you can expand Customize subnet CIDR blocks and enter a CIDR block. For more information, see Subnet CIDR blocks.
 
 6.For NAT gateways, choose 1 per AZ to improve resiliency.
-7.If your application communicates by using IPv6 addresses, for Egress only internet gateway, choose Yes.
-8.For VPC endpoints, if your instances must access an S3 bucket, keep the S3 Gateway default. Otherwise, instances in your private subnet can't access Amazon S3. There is no cost for this option, so you can keep the default if you might use an S3 bucket in the future. If you choose None, you can always add a gateway VPC endpoint later on.
+7.If our application communicates by using IPv6 addresses, for Egress only internet gateway, choose Yes.
+8.For VPC endpoints, if your instances must access an S3 bucket, keep the S3 Gateway default. Otherwise, instances in your private subnet can't access Amazon S3. There is no cost for this option, so we can keep the default if you might use an S3 bucket in the future. If we choose None, you can always add a gateway VPC endpoint later on.
 9.For DNS options, clear Enable DNS hostnames.
 10.Choose Create VPC.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Deploy your application
+Ideally, we've finished testing your servers in a development or test environment, and created the scripts or images that we'll use to deploy your application in production.
+You can use Amazon EC2 Auto Scaling to deploy servers in multiple Availability Zones and maintain the minimum server capacity required by your application.
