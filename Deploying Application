@@ -3,6 +3,7 @@ Deploy the application
 Ideally, we've finished testing your servers in a development or test environment, and created the scripts or images that you'll use to deploy your application in production.
 We can use Amazon EC2 Auto Scaling to deploy servers in multiple Availability Zones and maintain the minimum server capacity required by your application.
 
+
 To launch instances by using an Auto Scaling group
 
 1.Create a launch template to specify the configuration information needed to launch your EC2 instances by using Amazon EC2 Auto Scaling. For step-by-step directions, see Create a launch template for your Auto Scaling group in the Amazon EC2 Auto Scaling User Guide.
@@ -10,3 +11,5 @@ To launch instances by using an Auto Scaling group
 2.Create an Auto Scaling group, which is a collection of EC2 instances with a minimum, maximum, and desired size. For step-by-step directions, see Create an Auto Scaling group using a launch template in the Amazon EC2 Auto Scaling User Guide.
 
 3.Create a load balancer, which distributes traffic evenly across the instances in your Auto Scaling group, and attach the load balancer to your Auto Scaling group. For more information, see the Elastic Load Balancing User Guide and Use Elastic Load Balancing in the Amazon EC2 Auto Scaling User Guide.
+
+After we've finished deploying your application, we can test it. If our application can't send or receive the traffic that you expect, we can use Reachability Analyzer to help you troubleshoot. For example, Reachability Analyzer can identify configuration issues with your route tables or security groups. For more information, see the Reachability Analyzer Guide.
