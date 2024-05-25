@@ -17,4 +17,6 @@ After we've finished deploying your application, we can test it. If our applicat
 
 **Clean up**
 
+When you are finished with this configuration, you can delete it. Before you can delete the VPC, you must delete the Auto Scaling group, terminate your instances, delete the NAT gateways, and delete the load balancer. For more information, see Delete your VPC.
+
 
